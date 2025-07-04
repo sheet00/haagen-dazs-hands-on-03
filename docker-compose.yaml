@@ -1,8 +1,0 @@
-services:
-  nginx:
-    image: nginx:latest
-    ports:
-      - "3000:80"
-    volumes:
-      - ./sales_report:/usr/share/nginx/html
-    container_name: sales_report_nginx
