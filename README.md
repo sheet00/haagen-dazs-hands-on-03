@@ -24,3 +24,13 @@ https://sheet00.github.io/haagen-dazs-hands-on-03-slide/
 # レポート URL
 
 https://yudemen.net/sales_report/
+
+# VSCODE-server
+
+## コマンドパレット
+
+`F1`
+
+## ターミナル
+
+`ctl + shift + c`
