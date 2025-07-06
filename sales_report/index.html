@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハーゲンダッツ 2024年6月度 売上レポート</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header class="fade-in">
+        <h1>ハーゲンダッツ 2024年6月度 売上レポ���ト</h1>
+        <p>対象期間: 2024年6月1日 - 2024年6月30日</p>
+    </header>
+
+    <main>
+        <section id="kpi-summary">
+            <div class="kpi-card fade-in">
+                <h2><i class="fa-solid fa-yen-sign"></i> 総売上金額</h2>
+                <p id="total-sales">¥0</p>
+            </div>
+            <div class="kpi-card fade-in">
+                <h2><i class="fa-solid fa-ice-cream"></i> 総販売数量</h2>
+                <p id="total-quantity">0個</p>
+            </div>
+            <div class="kpi-card fade-in">
+                <h2><i class="fa-solid fa-bullseye"></i> 目標達成率</h2>
+                <p id="achievement-rate">0%</p>
+            </div>
+        </section>
+
+        <section id="charts">
+            <div class="chart-container fade-in">
+                <h2>商品別売上実績</h2>
+                <canvas id="productSalesChart"></canvas>
+            </div>
+            <div class="chart-container fade-in">
+                <h2>エリア別売上構成比</h2>
+                <canvas id="areaCompositionChart"></canvas>
+            </div>
+            <div class="chart-container fade-in">
+                <h2>目標達成率比較</h2>
+                <canvas id="achievementChart"></canvas>
+            </div>
+            <div class="chart-container fade-in">
+                <h2>前月比較</h2>
+                <canvas id="monthComparisonChart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer class="fade-in">
+        <p>作成日時: <span id="created-date"></span> | 作成者: フロントエンド開発チーム ✨</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
