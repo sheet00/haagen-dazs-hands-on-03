@@ -17,6 +17,10 @@
 - データ分析、グラフ自動生成、Marp スライド作成
 - Jira チケット自動登録や Git 自動コミットなど、実践的なワークフロー
 
+# VSCode server
+
+https://yudemen.net/
+
 # スライド URL
 
 https://sheet00.github.io/haagen-dazs-hands-on-03-slide/
