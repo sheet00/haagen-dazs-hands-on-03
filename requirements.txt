@@ -1,0 +1,6 @@
+pandas
+matplotlib
+matplotlib-fontja
+seaborn
+numpy
+pathlib
