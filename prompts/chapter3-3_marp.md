@@ -32,3 +32,14 @@ marp
 
 - footer 不要
 - 見やすさ重視のため、画像は別スライドで表示。テキストと混在させないこと。
+
+### style
+
+画像height
+h:500px
+
+### section padding
+
+section {
+  padding-top:10px;
+}

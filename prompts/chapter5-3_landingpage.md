@@ -14,3 +14,6 @@ https://haagen-dazs.atlassian.net/jira/software/projects/FMDV/boards/2/backlog
 ## Issue タイトル
 
 ハーゲンダッツ売上レポート ランディングページ作成
+
+# その他
+httpサーバー動作確認不要
